@@ -1,0 +1,135 @@
+table {
+  border: 2px black solid;
+  border-collapse: collapse;
+  width: 35%;
+  margin: auto;
+}
+
+table td {
+  padding-left: 5px;
+  border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+  background-color: grey;
+  color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  float: right;
+  margin: 5px 5px;
+  border: solid 2px black;
+  padding: 3px 6px;
+}
+
+.divider {
+  width: 10%;
+  height: 3px;
+  background-color: black;
+  margin: 40px auto;
+}
+
+.formDiv {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form button {
+  display: flex;
+  margin: 5px 0 0 auto;
+}
+
+form input {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.nav-item {
+  float: left;
+  font-size: 13px;
+}
+
+.nav-item a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.nav-item a:active {
+  color: green;
+  text-decoration: none;
+}
+
+.left-border {
+  border-right: 1px solid black;
+}
+
+nav {
+  display: inline;
+}
+
+nav span {
+  font-size: 45px;
+}
+
+.nav-container {
+  width: 100%;
+  border: 1px black solid;
+}
+
+.main-empty {
+  text-align: center;
+}
+
+time {
+  float: right;
+}
+
+.hide {
+  display: none;
+}
+
+.main {
+  padding-top: 100px;
+}
+
+.contactus-detal {
+  width: 30%;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border: 1px solid black;
+  padding: 10px;
+}

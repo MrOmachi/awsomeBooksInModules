@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Awesome Book</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <nav class="navBar">
+          <span>Awesome Books</span>
+          <ul class="nav">
+            <li class="nav-item left-border">
+              <a href="#" class="nav-list">List</a>
+            </li>
+            <li class="nav-item left-border">
+              <a href="#" class="nav-add">Add new</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <time datetime="1914-12-20T08:00"></time>
+    </header>
+
+    <main>
+      <section class="main-list main">
+        <h1>Awesome Book Library</h1>
+        <table>
+          <tbody class="tbody" id="tbody"></tbody>
+        </table>
+        <p class="main-empty hide">Your book list is Empty, kindly add books</p>
+      </section>
+      <section class="main-addBook main hide">
+        <div class="formDiv">
+          <h2>Add a new book</h2>
+          <form action="#" method="POST">
+            <input type="text" placeholder="Title" id="title" required />
+            <br />
+            <input type="text" placeholder="Author" id="author" required />
+            <br />
+            <button type="submit">Add</button>
+          </form>
+        </div>
+      </section>
+      <section class="main-contactus main hide">
+        <div class="contactus-detal">
+          <h2>Contact Information</h2>
+          <p>Do you have any questions or you just want to say "Hello?"</p>
+          <p>you can reach out to us!</p>
+          <ul>
+            <li>our email : mail@mail.com</li>
+            <li>our Phone number : xxx-xxx-xxxx</li>
+            <li>our address: Streetname xx, xxxx city, xxxxx</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; MIT Alazar | MrOmachi</p>
+    </footer>
+
+    <script type="module" src="script/main.js"></script>
+
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+  </body>
+</html>
