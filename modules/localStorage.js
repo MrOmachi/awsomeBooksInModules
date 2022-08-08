@@ -1,5 +1,5 @@
 const mainEmpty = document.querySelector('.main-empty');
-export class Storage {
+class Storage {
   static domBooksListFromStorage() {
     let books;
     if (localStorage.getItem('books') === null) {
@@ -39,3 +39,5 @@ export class Storage {
     }
   }
 }
+
+export default Storage;

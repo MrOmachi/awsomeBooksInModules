@@ -1,4 +1,4 @@
-export class Time {
+class Time {
   static displayTime() {
     const dt = luxon.DateTime.now()
       .setLocale(navigator.language)
@@ -14,3 +14,5 @@ export class Time {
     document.querySelector('time').innerHTML = dt;
   }
 }
+
+export default Time;

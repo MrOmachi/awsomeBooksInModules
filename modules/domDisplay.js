@@ -1,6 +1,6 @@
-import { Storage } from './localStorage.js';
+import Storage from './localStorage.js';
 
-export class BooksToDom {
+class BooksToDom {
   static displayBooksInDom() {
     Storage.checkEmptyList();
     const books = Storage.domBooksListFromStorage();
@@ -32,3 +32,5 @@ export class BooksToDom {
     document.querySelector('#author').value = '';
   }
 }
+
+export default BooksToDom;

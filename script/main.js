@@ -1,8 +1,8 @@
 /* eslint-disable max-classes-per-file */
-import { Book } from '../modules/bookConstructor.js';
-import { Storage } from '../modules/localStorage.js';
-import { BooksToDom } from '../modules/domDisplay.js';
-import { Time } from '../modules/luxonTime.js';
+import Book from '../modules/bookConstructor.js';
+import Storage from '../modules/localStorage.js';
+import BooksToDom from '../modules/domDisplay.js';
+import Time from '../modules/luxonTime.js';
 
 const form = document.querySelector('form');
 const navlist = document.querySelector('.nav-list');
@@ -59,7 +59,7 @@ document.querySelector('#tbody').addEventListener('click', (e) => {
   BooksToDom.deleteBook(e.target);
 
   Storage.removeBooksFromStorage(
-    e.target.parentElement.previousElementSibling.textContent
+    e.target.parentElement.previousElementSibling.textContent,
   );
   Storage.checkEmptyList();
 });
