@@ -1,6 +1,6 @@
 /* eslint-disable max-classes-per-file */
 import { Book } from '../modules/bookConstructor.js';
-// import { Storage } from '../modules/localStorage.js';
+import { Storage } from '../modules/localStorage.js';
 // import { BooksToDom } from '../modules/domDisplay.js';
 // import { Time } from '../modules/luxonTime.js';
 
