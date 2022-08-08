@@ -11,7 +11,7 @@ class Time {
         hour12: 'false',
       });
 
-    document.querySelector('time').innerHTML = dt;
+    document.querySelector('time').textContent = dt;
   }
 }
 
